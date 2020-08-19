@@ -1,0 +1,9 @@
+<div class="add-todo-container">
+  <form class="form" (ngSubmit)="onSubmit()">
+    <label>
+      <input type="text" name="title" [(ngModel)]="title" placeholder="Add Todo..." required="required">
+    </label>
+    <input type="submit" value="Submit" class="btn">
+  </form>
+  <small class="error-message" [ngClass]="setVisible()">This field is required.</small>
+</div>

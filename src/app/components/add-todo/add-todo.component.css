@@ -1,0 +1,34 @@
+.add-todo-container {
+  margin-bottom: 1rem;
+}
+
+.form {
+  display: flex;
+}
+
+.form label {
+  flex: 10;
+}
+
+.form input[type=text] {
+  width: 100%;
+  padding: 10px;
+  outline: none;
+  border: 1px solid #aaa;
+}
+
+.form input[type=submit] {
+  flex: 2;
+  outline: none;
+}
+
+.error-message {
+  display: none;
+  color: #fff;
+  background-color: #dc3545;
+  padding: .5rem;
+}
+
+.d-block {
+  display: block !important;
+}
