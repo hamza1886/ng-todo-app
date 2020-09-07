@@ -1,4 +1,5 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
+import { FormsModule } from '@angular/forms';
 
 import { AddTodoComponent } from './add-todo.component';
 
@@ -8,9 +9,9 @@ describe('AddTodoComponent', () => {
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ AddTodoComponent ]
-    })
-    .compileComponents();
+      imports: [FormsModule],
+      declarations: [AddTodoComponent]
+    }).compileComponents();
   }));
 
   beforeEach(() => {
