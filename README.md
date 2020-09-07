@@ -32,7 +32,9 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 
 ## Deploy app
 
-Run `npm run deploy` to publish the app on [GitHub pages](https://hamza1886.github.io/ng-todo-app)
+Run `npm run deploy` to publish the app on [GitHub pages](https://hamza1886.github.io/ng-todo-app). 
+
+This is not required in case of TravisCI.
 
 ## Further help
 
