@@ -30,6 +30,10 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 
 [Solution] Run `node node_modules\protractor\bin\webdriver-manager update` on project root, then run `ng e2e`. 
 
+## Deploy app
+
+Run `npm run deploy` to publish the app on [GitHub pages](https://hamza1886.github.io/ng-todo-app)
+
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
