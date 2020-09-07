@@ -17,7 +17,7 @@ deploy:
   strategy: git
   provider: pages
   cleanup: true
-  github-token: $GITHUB_TOKEN
+  github_token: $GITHUB_TOKEN
   local_dir: dist
   on:
     branch: master
