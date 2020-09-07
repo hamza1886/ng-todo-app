@@ -18,4 +18,4 @@ deploy:
   cleanup: true
   token: $GITHUB_TOKEN
   on:
-    branch: gh-pages
+    branch: master
